@@ -1,0 +1,108 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 50px;
+  gap: 20px;
+
+  position: fixed;
+  inset: 0;
+}
+.chat_container1 {
+  overflow-y: scroll;
+  border: 2px solid rgb(231, 233, 233);
+  border-radius: 20px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  flex: 1 1 1px;
+}
+.chat_container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  background-color: rgb(231, 233, 233);
+}
+.bot_chat_container {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+}
+.user_chat_container1 {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+.user_chat_container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.bot_type {
+  background-color: green;
+  border: 1px solid green;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 40px;
+  font-size: large;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+.user_type {
+  background-color: rgb(240, 88, 88);
+  border: 1px solid rgb(240, 88, 88);
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 40px;
+  font-size: large;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+.bot_chats {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: white;
+}
+
+.user_chats {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 10px;
+}
+.input_container {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  border: 1px solid white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
+  border-radius: 6px;
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  background-color: rgb(231, 229, 229);
+}
+button {
+  border: 1px solid blue;
+  border-radius: 8px;
+  width: 100px;
+  height: 50px;
+  background-color: blue;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
+  cursor: pointer;
+}
